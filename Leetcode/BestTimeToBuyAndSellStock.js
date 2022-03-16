@@ -12,7 +12,7 @@
 var maxProfit = function (prices) {
     //Add price delta to profit if price is increasing
     let profit = 0;
-    for (let i = 0; i < prices.length; i++) {
+    for (let i = 1; i < prices.length; i++) {
         if (prices[i + 1] > prices[i]) {
             profit += prices[i + 1] - prices[i]
         }
