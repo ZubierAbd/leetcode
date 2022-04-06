@@ -11,10 +11,8 @@ function remove_duplicates(arr) {
             arr[nextNonDuplicate] = arr[i]
             nextNonDuplicate += 1;
         }
-        console.log(arr)
         i += 1
     }
-    console.log(arr)
     return nextNonDuplicate;
 }
 

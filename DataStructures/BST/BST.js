@@ -155,6 +155,10 @@ class BST {
         return visited;
     }
 
+    invert() {
+
+    }
+
 }
 
 //ON a really wide tree, breadhth first is worse since the space complexity is worse
